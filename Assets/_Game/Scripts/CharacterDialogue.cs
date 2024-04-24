@@ -7,7 +7,9 @@ public class CharacterDialogue : MonoBehaviour
 {
     private TextMeshProUGUI _text;
 
-    public string textEntered;
+    public string[] textEntered;
+    private int textEnteredIndex = 0;
+    
     private char[] textEnteredSplit;
     private char[] textToPrintSplit;
 
@@ -16,21 +18,21 @@ public class CharacterDialogue : MonoBehaviour
 
    void Start()
     {
-        _text = GetComponent<TextMeshProUGUI>();
-        textEnteredSplit = textEntered.ToCharArray();
+        _text = this.transform.GetChild(0).GetComponent<TextMeshProUGUI>();
+        textEnteredSplit = textEntered[0].ToCharArray();
         textToPrintSplit = new char[textEnteredSplit.Length];
     }
 
 
     void Update()
     {
-       if (Input.GetKeyDown(KeyCode.Space))
+       if (Input.GetKeyDown(KeyCode.Space) && textEnteredIndex < textEntered.Length)
         {
             Debug.Log("Space was pressed");
             if(!isPrinting)
             {
                 textToPrintSplit = new char[textEnteredSplit.Length];
-                    StartCoroutine(PrintText());
+                StartCoroutine(PrintText());
             }
         }
     }
@@ -49,5 +51,12 @@ public class CharacterDialogue : MonoBehaviour
         }
 
         isPrinting = false;
+        textEnteredIndex += 1;
+        if (textEnteredIndex < textEntered.Length)
+        {
+
+            textEnteredSplit = textEntered[textEnteredIndex].ToCharArray();
+
+        }
     }
 }
