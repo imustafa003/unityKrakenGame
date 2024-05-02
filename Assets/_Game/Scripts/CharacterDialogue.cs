@@ -31,6 +31,8 @@ public class CharacterDialogue : MonoBehaviour
 
     [Header("Character Box")]
 
+    //[Tooltip("Changes the design for the character boxes")]
+
 
     [SerializeField] private Sprite characterBoxSprite;
     [SerializeField] private Color characterBoxColorChange;
