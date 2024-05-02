@@ -376,6 +376,98 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2075978490400720892, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3e01bbb218afa47418e19f396ba7e29d, type: 3}
+    - target: {fileID: 2075978490400720892, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: m_Color.b
+      value: 0.9339623
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490400720892, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: m_Color.g
+      value: 0.49062243
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490400720892, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: m_Color.r
+      value: 0.2687344
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490436350803, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f23b690e3699a4f4092b0a835dd9828b, type: 3}
+    - target: {fileID: 2075978490436350803, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: m_Color.b
+      value: 0.21698111
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490436350803, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: m_Color.g
+      value: 0.1534837
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490436350803, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: m_Color.r
+      value: 0.1463599
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: dialogueBoxSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c2cbd72b1ceb94dbeb26e3d049a36591, type: 3}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: portraitBoxSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3e01bbb218afa47418e19f396ba7e29d, type: 3}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: textColorChoice.b
+      value: 0.8773585
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: textColorChoice.g
+      value: 0.15312389
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: textColorChoice.r
+      value: 0.5782761
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: characterBoxSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f23b690e3699a4f4092b0a835dd9828b, type: 3}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: dialogueBoxColorChange.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: dialogueBoxColorChange.g
+      value: 0.68627053
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: dialogueBoxColorChange.r
+      value: 0.504717
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: portraitBoxColorChange.b
+      value: 0.9339623
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: portraitBoxColorChange.g
+      value: 0.49062243
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: portraitBoxColorChange.r
+      value: 0.2687344
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: characterBoxColorChange.b
+      value: 0.21698111
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: characterBoxColorChange.g
+      value: 0.1534837
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978490885012040, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: characterBoxColorChange.r
+      value: 0.1463599
+      objectReference: {fileID: 0}
     - target: {fileID: 2075978490885012041, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -463,6 +555,22 @@ PrefabInstance:
     - target: {fileID: 2075978490885012045, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978491120925373, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c2cbd72b1ceb94dbeb26e3d049a36591, type: 3}
+    - target: {fileID: 2075978491120925373, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978491120925373, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: m_Color.g
+      value: 0.68627053
+      objectReference: {fileID: 0}
+    - target: {fileID: 2075978491120925373, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
+      propertyPath: m_Color.r
+      value: 0.504717
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d73665abd8bf4f8eb97285dd56b37ea, type: 3}
